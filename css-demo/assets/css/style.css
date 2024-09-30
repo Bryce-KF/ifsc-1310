@@ -1,0 +1,35 @@
+/*--------css-demo--------*/
+/*---------Color scheme---------
+Main: #6EFFCF
+Second: #6F807A
+Third: #3C554D
+Fourth: #82AA9D
+Fifth:#7FD5B8
+*/
+
+/*  ---------------Box Sizing-----------------  */
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+body
+{
+background-color: #6EFFCF;
+font-family: "Cedarville Cursive", cursive;
+font-size: large;
+text-align: center;
+}
+main{}
+
+header.primary{
+    background-color:#6F807A;
+    color:#FFFFFF;
+    text-align: center;
+    text-shadow:1px 1px #000000;
+}
+
