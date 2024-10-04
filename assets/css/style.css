@@ -1,3 +1,6 @@
 body{
     background-color:rgb(238, 70, 106);
 }
+img{
+    max-width: 600px;
+}
