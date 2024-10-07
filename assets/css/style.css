@@ -4,3 +4,6 @@ body{
 img{
     max-width: 600px;
 }
+article{
+    max-width: 800px;
+}
