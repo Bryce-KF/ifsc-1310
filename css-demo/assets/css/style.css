@@ -29,16 +29,21 @@ html {
   }
 body
 {
-background-color: #6EFFCF;
+/*background-color: #6EFFCF;*/
+background: linear-gradient(90deg, rgba(111,128,122,1) 0%, rgba(91,168,143,1) 35%, rgba(110,255,207,1) 100%);
 font-family: "Cedarville Cursive", cursive;
 font-size: large;
 text-align: center;
 margin:0;
+/*background-image: url("https://assets.codepen.io/7248/grey-kitten_1.jpg");
+background-repeat:no-repeat;
+background-size: contain;*/
 }
 main{}
 
 header.primary{
     background-color:#6F807A;
+background-image: url("data:image/svg+xml,%3Csvg width='16' height='20' viewBox='0 0 16 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M8 0v20L0 10M16 0v10L8 0M16 10v10H8'/%3E%3C/g%3E%3C/svg%3E");
     color:#FFFFFF;
     text-align: center;
     text-shadow:1px 1px #000000;
@@ -139,6 +144,47 @@ header.primary nav ul li a:hover{
   color:#6F807A;
 }
 
+
+aside[role="complementary"]{
+  background-color: #3C554D;
+    color:#ffffff;
+    padding:40px;
+  }
+
+
+aside .container{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap:60px;
+}
+
+aside article.widget a{
+  color:#ffffff;
+  
+}
+
+aside article.widget footer{
+  display:none;
+}
+
+aside article.widget a:last-of-type{
+  color:#ffffff;
+  display:block;
+  margin-top:20px;
+  text-align: right;
+}
+
+
+#colophon{
+  background-color: #6F807A;
+  padding:1px;
+  color:#ffffff;
+  font-size:1.2rem;
+  text-align: center;
+}
+
+
 /*--------Media Queries----------*/
 @media screen and (max-width:650px){
   header.primary nav ul{
@@ -149,5 +195,11 @@ header.primary nav ul li a:hover{
   }
   header.primary nav a{
     display:block;
+  }
+  #blog{
+    flex-direction:column;
+  }
+  aside .container{
+    flex-direction: column;
   }
 }
