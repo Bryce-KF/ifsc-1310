@@ -1,9 +1,30 @@
-body{
-    background-color:rgb(238, 70, 106);
-}
-img{
-    max-width: 600px;
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+ 
+body
+{
+/*background-color: #6EFFCF;*/
+background:rgba(201, 14, 14, 0.829);
+font-family: "Cedarville Cursive", cursive;
+text-align: center;
+margin:0;
+/*background-image: url("https://assets.codepen.io/7248/grey-kitten_1.jpg");
+background-repeat:no-repeat;
+background-size: contain;*/
 }
 article{
     max-width: 800px;
+}
+
+ul li{
+    list-style-type:none;
+}
+article{
+    margin:auto;
 }
