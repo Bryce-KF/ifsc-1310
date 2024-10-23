@@ -13,15 +13,12 @@ body
 background:rgba(201, 14, 14, 0.829);
 font-family: "Cedarville Cursive", cursive;
 text-align: center;
-margin:0;
 }
 article{
     max-width: 800px;
+    margin:auto;
 }
 
 ul li{
     list-style-type:none;
-}
-article{
-    margin:auto;
 }
