@@ -29,11 +29,14 @@ html {
   }
 body
 {
+  color:#F2F2F2;
 /*background-color: #6EFFCF;*/
 /*background: linear-gradient(0deg, rgba(242,242,242,1) 0%, rgba(28,45,140,1) 27%, rgba(42,67,140,1) 67%, rgba(109,118,166,1) 100%);*/
 background-image: url("../img/star-galaxy-.jpg");
 background-size: contain;
-font-family: "Cedarville Cursive", cursive;
+font-family: "Baskervville SC", serif;
+font-weight: 400;
+font-style: normal;
 font-size: large;
 text-align: center;
 margin:0;
@@ -271,11 +274,34 @@ aside article.widget a:last-of-type{
 
 
 #colophon{
-  background-color: #6F807A;
+  background-color: #261F22;
   padding:1px;
-  color:#261F22;
+  color:#F2F2F2;
   font-size:1.2rem;
   text-align: center;
+}
+.faqcontent details{
+ padding:20px 0;
+}
+details {
+  border: 1px solid #F2F2F2;
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+}
+
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+}
+
+details[open] {
+  padding: 0.5em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 0.5em;
 }
 
 
